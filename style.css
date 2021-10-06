@@ -9,7 +9,7 @@
 body {
     background-color: #FFF8FC;
     font-family: "Roboto", "Arial", sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     color: #151C5A;
 }
 
@@ -20,7 +20,6 @@ header {
 header, footer {
     padding: 20px;
     background-color: #f7d2e1;
-    font-weight: bold;
     line-height: 200%;
 }
 
@@ -120,7 +119,11 @@ a {
 
     /*Styling for smaller screen sizes*/
   @media only screen and (max-width: 1000px) {
-      header, footer {
+    body {
+        font-size: 85%;
+    }  
+    
+    header, footer {
           text-align: center;
       }
 
@@ -139,14 +142,14 @@ a {
 
     #cardImg {
       width: 100%;
-  }
+  §§}
 
-      .about {
-          flex-direction: column;
-          width: 95%;
-      }
+    .about {
+        flex-direction: column;
+        width: 95%;
+    }
 
-      .aboutContainer img {
-        width: 100%;
+    .aboutContainer img {
+    width: 100%;
     }
   }
