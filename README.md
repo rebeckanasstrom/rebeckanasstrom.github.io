@@ -17,3 +17,7 @@ Jag har under sommaren arbetat med att scanna in och skriva små texter (ur mina
 <li>Implementera någon form av DOM hantering via Javascript som kan påverka designen eller informationen som visas</li>
 <ul><li>Använder randomiseringsfunktion för att slumpa fram ett kort med bild + information genom att visa/dölja boxar i HTML med hjälp av CSS</li></ul>
 </ol>
+
+<hr>
+
+<a href="https://rebeckanasstrom.github.io/">Projektsidan kan ses live här</a>
