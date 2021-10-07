@@ -11,7 +11,7 @@ function randomNote(){
     var allNotes = document.getElementsByClassName("random"); /*Gets an array of all the notes with class random and stores it in allNotes*/
     var oneNote = allNotes[Math.floor(Math.random()*allNotes.length)]; /*Randomly picks one note from the array and stores it in oneNote*/
 
-    /*If the last shown note has a style that is not empty, set it to display: none, and change the current note "in line" to display: flex, and then switch the last shown note to the new information to repeat process on button click*/
+    /*Changes display property of last shown and upcoming note to hide previous and show next on button click*/
     if (lastShownNote != null){
         lastShownNote.style.display = "none";
     }
